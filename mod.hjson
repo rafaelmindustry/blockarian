@@ -1,0 +1,9 @@
+{
+    displayName : Blockarian
+    repo : Rafaelmindustry/Blockarian
+    name : me
+    description: this mod add a no much blocks (this mod is started editing pls dont install this mod)
+    subtitle: "Don't forget to reinstall every so often!"
+    minGameVersion : 140
+    version : "1.2"
+}
