@@ -1,0 +1,7 @@
+type: oreBlock
+name: icelirium ore
+description: is the cold belirium on the ice serpulo sedments
+variants: 3
+hasColor: true
+itemDrop: icelirium
+mapColor: 8ba9e8
