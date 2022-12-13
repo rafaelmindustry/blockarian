@@ -1,0 +1,39 @@
+name: mini coal centrifug
+description: are slower but is more small than the original
+health: 250
+type: genericCrafter
+hasPower: true
+hasLiquid: true
+hasItems: true
+consumes:{
+  power:0.5
+  liquid:{
+    liquid: oil
+    amount: 0.1
+  }
+}
+craftTime: 150
+craftEffect: {
+type: waveEffect
+fromSize: 0
+toSize: 3
+fromColor: 060506
+toColor: f5f6f5
+lifetime: 20
+}
+outputItem: coal/1
+research: {
+parent: silicon-smelter
+requirements: [
+lead/350
+copper/500
+titanium/600
+silicon/400
+]}
+category: crafting
+requirements: [
+ lead/35
+ copper/50
+ silicon/30
+ titanium/25
+]
