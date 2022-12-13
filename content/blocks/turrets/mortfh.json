@@ -23,9 +23,9 @@ ammoTypes: {
 frontColor: ebc2a9
 backColor: d99d73
 speed: 2.5
-trailChance: 0.04
-weaveMag: 10
-weaveScl: 5
+trailChance: 0.09
+weaveMag: 0
+weaveScl: 0
 trailEffect: {
 line: true
 sizeFrom: 0.2
