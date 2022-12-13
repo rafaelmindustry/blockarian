@@ -1,0 +1,16 @@
+type: wall
+health: 2540
+name: titan wall large
+size: 2
+description: this is a titan wall much more hard
+category: defense
+research: {
+  parent: titanWall
+  requirements:[
+  lead/2000
+  titanium/1000
+]}
+requirements: [
+  titanium/20
+  lead/12
+]

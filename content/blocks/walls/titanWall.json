@@ -1,0 +1,17 @@
+type: wall
+health: 740
+name: titan wall
+size: 1
+description: this is a titanium and lead wall
+category: defense
+research: {
+  parent: titanium-wall
+  requirements:
+[
+  lead/1000
+  titanium/500
+]}
+requirements: [
+  titanium/5
+  lead/3
+]
