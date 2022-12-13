@@ -1,0 +1,54 @@
+type: itemTurret
+name: mortfh
+size: 1
+description: it shoot a 3 bullets to attack 1 enimy to kill much fast but this turret is much slower 
+reload: 120
+health: 250
+recoilAumont: 1
+range: 150
+category: turret
+shoot: {
+shots: 3
+spread: 35
+barrels: 1
+shootDelay: 0
+}
+shootSound: shoot
+itemCapacity: 10
+ammoTypes: {
+ copper:{
+ damage: 45
+ type: basicBulletType
+ lifetime: 50
+frontColor: ebc2a9
+backColor: d99d73
+speed: 2.5
+trailChance: 0.04
+weaveMag: 10
+weaveScl: 5
+trailEffect: {
+line: true
+sizeFrom: 0.2
+sizeTo: 1
+lifetime: 15
+speed: 6
+fromColor: d99d73
+toColor: ebc2a9
+particles: 1
+type: particleEffect
+}}
+}
+research: {
+parent: duo
+requirements: [
+lead/300
+copper/1000
+titanium/600
+]}
+requirements: [
+lead/30
+copper/50
+titanium/60
+]
+
+ 
