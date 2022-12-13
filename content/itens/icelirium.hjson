@@ -1,0 +1,11 @@
+name: icelirium
+description: this is a cold belirium ore in the serpulo go found it to make a much itens that make.....
+cost: 0.5
+color: f6fffd
+hardness: 2
+lowPriority: true
+research: {
+   parent: plastanium
+    requirements: [
+   ]
+}
