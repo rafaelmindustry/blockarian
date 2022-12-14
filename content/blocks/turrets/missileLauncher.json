@@ -1,0 +1,56 @@
+type: itemTurret
+name: missile launcher
+size: 1
+description: it shoot a 1 missile to attack varius enimys, but this turret is slower 
+reload: 80
+health: 250
+recoilAumont: 1
+range: 150
+category: turret
+shoot: {
+shots: 1
+spread: 0
+barrels: 1
+shootDelay: 1
+}
+shootSound: shoot
+itemCapacity: 10
+ammoTypes: {
+ titanium :{
+ damage: 70
+ type: missileBulletType
+ lifetime: 50
+frontColor: ebc2a9
+backColor: d99d73
+speed: 2.5
+trailChance: 0.5
+weaveMag: 0
+weaveScl: 0
+smokeEffect: {
+circle: true
+sizeFrom: 0.2
+sizeTo: 1
+lifetime: 35
+speed: 2
+fromColor: d99d73
+toColor: ebc2a9
+particles: 2
+type: particleEffect
+}}
+}
+research: {
+parent: mortfh
+requirements: [
+silicon/300
+lead/1000
+titanium/600
+thorium/500
+]}
+requirements: [
+silicon/30
+lead/50
+titanium/60
+thorium/40
+]
+
+ 
